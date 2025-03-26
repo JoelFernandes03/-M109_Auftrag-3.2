@@ -7,5 +7,4 @@ COPY ./App/Website /usr/share/nginx/html
 # Port 80 freigeben (Standard für HTTP)
 EXPOSE 80
 
-# Nginx im Vordergrund starten (für Docker-Compatibilität)
-CMD ["nginx", "-g", "daemon off;"]
+
